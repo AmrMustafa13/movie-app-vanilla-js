@@ -24,7 +24,6 @@ async function showSearchRes(e) {
         matches = [];
         matchBox.innerHTML = ''
     }
-
 }
 
 // showing a list of search results in the match box
@@ -95,7 +94,6 @@ const updateDom = async selected => {
     </div >
   </div > `;
     mainSection.innerHTML = updated
-
 }
 
 // the input event listener
